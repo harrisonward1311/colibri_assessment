@@ -1,0 +1,16 @@
+turbine_id,period_min_output,period_max_output,period_avg_output,under_anomaly_threshold,over_anomaly_threshold
+1,1.6,4.4,2.9749999999999996,false,false
+2,1.6,4.4,2.9833333333333325,false,false
+3,1.6,4.5,2.766666666666667,false,false
+4,1.5,4.4,3.020833333333334,false,false
+5,1.7,4.5,3.079166666666667,false,false
+6,1.5,4.5,2.908333333333333,false,false
+7,1.6,4.5,3.087499999999999,false,false
+8,1.6,4.4,3.016666666666666,false,false
+9,1.5,4.3,2.7208333333333328,false,false
+10,1.5,4.5,3.1250000000000004,false,false
+11,1.5,4.4,2.7375000000000003,false,false
+12,1.6,4.5,3.1583333333333337,false,false
+13,1.8,4.3,3.0333333333333337,false,false
+14,1.6,4.5,2.983333333333333,false,false
+15,2.0,4.5,3.3708333333333336,false,false
