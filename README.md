@@ -36,6 +36,6 @@ This project was created and tested on Windows and as such the below setup instr
 
 4. To open results file in notepad, run the below code in PowerShell terminal.
 
-       notepad output/summary.csv
+       notepad (Get-ChildItem "output/summary" -Filter "part-*.csv" | Select-Object -First 1 -ExpandProperty FullName)
 
     
