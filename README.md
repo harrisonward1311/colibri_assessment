@@ -30,7 +30,7 @@ This project was created and tested on Windows and as such the below setup instr
 
         .\setup.ps1
 
-3. Run main script. Currently all API data is already loaded in data/raw_stock_prices for speed purposes. If you want to run a full load, you can set the refresh_data flag to True in the main.py script. Optionally, you can delete specific files from storage and only those will be ingested from the API in the run. 
+3. Run main script. 
    
         py .\src\turbine_pipeline\main.py
 
