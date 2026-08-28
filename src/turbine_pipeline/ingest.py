@@ -43,7 +43,6 @@ def ingest_csvs(spark: SparkSession, input_dir: Path | str) -> DataFrame:
 		.option("mode", "PERMISSIVE") # Allows malformed data to be skipped
 		.schema(TURBINE_SCHEMA)
 		.csv([str(path) for path in csv_files])
-		.withColumn("source_file", input_file_name())
 	)
 	
 	return data_df
